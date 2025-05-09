@@ -23,6 +23,7 @@ Máximo de 10 frames. Si hay strike o spare en el 10, no hay lanzamientos extra 
 
 
 🎮 Modo: Training
+
 Cada strike vale 5 puntos base (en lugar de 10), pero el bonus sigue siendo igual (dos próximos lanzamientos).
 
 
