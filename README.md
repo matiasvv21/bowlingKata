@@ -2,10 +2,13 @@
 used for interview process
 
 🎳 Bowling Game Kata – Modo de Juego
+
 🧾 Enunciado
+
 Tu tarea es implementar un sistema de puntuación para un juego de bowling con modos de juego. Actualmente existen tres modos:
 
 🎮 Modo: Classic (modo por defecto)
+
 Reglas normales de bowling.
 
 
@@ -26,29 +29,15 @@ Cada strike vale 5 puntos base (en lugar de 10), pero el bonus sigue siendo igua
 Todo lo demás funciona como Classic.
 
 
+✅ Tareas
 
-🎮 Modo: Inverse
-Todos los puntajes se descuentan (se restan en lugar de sumar).
-
-
-Bonus también se descuentan.
-
-
+Se desea agregar el modo "Inverse" sin romper los tests existentes:
+En este modo, todos los puntos se restan, incluso los bonus.
 Por ejemplo, un spare normal da -10 puntos - siguiente lanzamiento.
 
+Si encontrás problemas de diseño, comentá cómo lo mejorarías y por qué.
 
-
-✅ Tareas
-Implementar la clase Game, que permite jugar un juego completo (hasta 20 tiros).
-
-
-Implementar el método Score(), que devuelve el puntaje total al final del juego.
-
-
-Implementar los tres modos de juego detallados.
-
-
-Escribir pruebas unitarias para el modo Classic. (Los otros pueden testearse luego, o ser parte de otro paso del desafío.)
+(Bonus): Refactorizá el código para facilitar futuros cambios si tenés tiempo.
 
 
 
