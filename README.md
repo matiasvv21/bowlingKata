@@ -42,7 +42,6 @@ Debes extender el sistema para soportar dos nuevos modos de juego:
 
 1. Refactoriza el código para mejorar su diseño y facilitar futuras extensiones
 2. Identifica y comenta los problemas de diseño que encuentres
-3. 
 
 ## Evaluación
 
