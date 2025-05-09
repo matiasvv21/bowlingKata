@@ -28,7 +28,7 @@ public class BowlingGame
                 if (f < 9)
                 {
                     s += 5 + rolls[rIdx + 1] + rolls[rIdx + 2];
-                    if (mode == "Classic" || mode == "Inverse")
+                    if (mode == "Classic")
                     {
                         s += 5;
                     }
