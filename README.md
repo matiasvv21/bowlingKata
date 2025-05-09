@@ -16,7 +16,7 @@ Hay varios tests que verifican el comportamiento tanto del modo "Classic" como d
 Reglas normales de bowling.
 Strike: 10 puntos + próximos 2 lanzamientos.
 Spare: 10 puntos + próximo lanzamiento.
-Máximo de 10 frames. Si hay strike o spare en el 10, no hay lanzamientos extra (el juego no los soporta).
+Máximo de 10 frames. Si hay strike o spare en el 10, se habilitan 3 tiros en total en el decimo frame, un juego perfecto tiene 12 tiradas de 10 pinos.
 
 ## Tu desafío
 
