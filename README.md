@@ -6,11 +6,25 @@ Eres un desarrollador trabajando para un club de bolos que ofrece diferentes mod
 
 El club quiere expandir su oferta con nuevos modos de juego. Tu tarea es modificar el sistema existente para añadir estas nuevas modalidades sin romper la funcionalidad actual ni modificar su interfaz publica.
 
+## Reglas generales de Bowling
+### La partida:
+Una partida consta de diez "cuadros" o "frames".
+
+### El lanzamiento:
+En cada cuadro, el jugador tiene dos lanzamientos, a menos que en el primer lanzamiento derribe todos los bolos (lo que se llama "strike"). 
+### Puntuación:
+El objetivo es derribar el mayor número de bolos en el menor número de lanzamientos.
+
+Strike: Derribar todos los bolos en el primer lanzamiento.
+
+Spare: Derribar todos los bolos en dos lanzamientos. 
+
 ## El código existente
 
 El sistema actualmente usa la clase `BowlingGame` para calcular la puntuación:
 
 Hay varios tests que verifican el comportamiento tanto del modo "Classic" como del "Training".
+
 ### Modo Classic
 
 Reglas normales de bowling.
